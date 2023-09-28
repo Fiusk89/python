@@ -6,16 +6,16 @@ high = 100
 trys = 5
 print('INÍCIO DE JOGO')
 while number != guess:
+    if trys == 0:
+        print('Acabaram as suas chances. Você perdeu!')
+        break
     guess = int(input('Escolha um número entre {} e {}. Restam {} chances.'.format(low, high, trys)))
-    if guess == number:
+    elif guess == number:
         print('Parabéns! Você acertou sobrando {} chances!'.format(trys))
     elif guess > number:
         high = print('Palpite muito alto!')
         high = guess
         trys = trys -1
-    elif trys == 0:
-        print('Que pena! Acabaram as suas chances!')
-        break
     else:
         low = print('Palpite muito baixo!')
         low = guess
