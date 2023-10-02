@@ -20,8 +20,8 @@ dez = saque / 10
 saque = saque - int(dez) * 10
 cinco = saque / 5
 
-print('Notas R$100,00 = ',int(cem))
-print('Notas R$ 50,00 = ',int(cinquenta))
-print('Notas R$ 20,00 = ',int(vinte))
-print('Notas R$ 10,00 = ',int(dez))
-print('Notas R$  5,00 = ',int(cinco))
+print('Notas R$ 100,00 = ',int(cem))
+print('Notas R$  50,00 = ',int(cinquenta))
+print('Notas R$  20,00 = ',int(vinte))
+print('Notas R$  10,00 = ',int(dez))
+print('Notas R$   5,00 = ',int(cinco))
