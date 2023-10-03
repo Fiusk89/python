@@ -1,2 +1,3 @@
 from playsound import playsound
-playsound('/pythontreino/python/treino/bump.mp3')
+print('Ain, Zé da Manga!')
+playsound('treino/manga.mp3')
