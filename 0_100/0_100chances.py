@@ -13,7 +13,7 @@ while number != guess:
         high = print('Palpite muito alto!')
         high = guess
         trys = trys -1
-    elif trys == 0:
+    elif trys == 1:
         print('Que pena! Acabaram as suas chances!')
         break
     else:
