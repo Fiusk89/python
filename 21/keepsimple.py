@@ -18,6 +18,7 @@ while player < 21:
         if dealer > 21:
             print('O dealer "estourou" e você ganhou a rodada!')
             print(dealer)
+            break
         else:    
             player = rd.choice(deck)
             print(player)
