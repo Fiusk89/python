@@ -19,7 +19,7 @@ print(
     )
 
 start = input(
-    'Vamos comecar? sim/não ' 
+    'Vamos começar? sim/não ' 
     )
 
 if start == 'sim' or start == 's':
